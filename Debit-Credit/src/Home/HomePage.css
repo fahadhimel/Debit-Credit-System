@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.TableAll{
+   margin-top: 50px;
+   background: #E7EAED;
+   /*display: flex;*/
+   width: 100%;
+}
+
+.TableTow{
+    display: flex;
+    background: rgba(192, 208, 218, 0.775);
+    height: 300px;
+    overflow: scroll;
+    border-radius: 10px;
+}
+.title{
+    margin: 40px;
+    color: rgb(237, 64, 98);
+}
+.debit{
+    position: relative;
+    float: left;
+    color: #412;
+    margin-left: 70px;
+    border-radius: 10px;
+    width: 35%;
+}
+.credit{
+    position: relative;
+    float: right;
+    color: #412;
+    
+    border-radius: 10px;
+    width: 35%;
+}
+.aitem{
+    position: relative;
+    color: rgba(38, 56, 59, 0.6);
+    align-items: center;
+    margin-left: 50px;
+    width: 15%;
+}
+.dinput{
+    height: 23px;
+    width: 20%;
+    border: 3px solid #1565C0;
+    border-bottom-right-radius:9px ;
+    margin-left:5px;
+    text-align: center;
+}
+.cinput{
+    height: 23px;
+    width: 20%;
+    border: 3px solid #1565C0;
+    border-top-left-radius:8px ;
+    margin:0 5px 0 1px;
+    text-align: center;
+}
+.DAountcssall{
+    position:relative;
+    width: 100%;
+    align-items: center;
+
+}
+.DAountcssalls{
+    margin-left: 39%;
+    width: 100%;
+  align-items: center;
+}
+
+.DAountcss{
+    
+    width: 250px;
+    height: 50px;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    border: 2px solid #6985;
+    margin: 40px 0;
+    background: crimson;
+}
